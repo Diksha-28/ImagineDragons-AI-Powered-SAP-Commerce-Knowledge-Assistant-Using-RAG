@@ -1,5 +1,5 @@
 from pathlib import Path
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 DOCS_DIR = Path(__file__).parent.parent / "docs"
 CHUNK_SIZE = 512
